@@ -1,0 +1,46 @@
+body {
+  background-color: white;
+  margin: auto;
+  padding: auto;
+}
+.boxtop {
+  background-color: rgb(24, 20, 20);
+  width: 100%;
+  height: 100px;
+  box-shadow: 1px 2px 20px black;
+  display: flex;
+  align-items: center;
+}
+.interface {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.boxbottom {
+  margin-top: 31%;
+  background-color: rgb(28, 28, 250);
+  width: 100%;
+  height: 100px;
+}
+label {
+  color: white;
+  font-family: 'Roboto';
+  padding: 10px;
+  font-size: 20px;
+}
+.greetings {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  width: 350px;
+  height: 100px;
+  text-align: left;
+}
+.image {
+  position: absolute;
+  top: 80%;
+  left: 100vh;
+  transform: translate(-50%,-50%);
+}
